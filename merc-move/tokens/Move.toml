@@ -1,0 +1,12 @@
+[package]
+name = "tokens"
+version = "0.0.0"
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'mainnet'
+subdir = 'aptos-move/framework/aptos-framework'
+[addresses]
+# This address for dev purpose only. When we get ready for
+# deploy our move modules to the Mainnet, we will change
+# these addresses.
+MerCToken = "0x7"
